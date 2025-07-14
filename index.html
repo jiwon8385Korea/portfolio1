@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM ENTERTAIMENT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="headerInner">
+                <a href="index.html" class="logo">
+                    <span class="ent-mask">
+                        <span class="ent-text">
+                            <span class="logo-target"></span> <!-- 로고가 도착할 자리 -->
+                        </span>
+                    </span>     <!-- 텍스트는 JS에서 삽입 -->
+                </a>
+                <button class="menu" id="menuBtn" aria-label="메뉴 열기">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+        
+        <!-- 햄버거 전체 메뉴 래퍼 -->
+        <div class="menuWrap" id="menuWrap">
+            <div class="menuInner" id="menuInner">
+                <ul class="gnb">
+                    <li>
+                        Company
+                        <ul class="sub">
+                            <li><a href="sub/sub_company/company_index.html">회사소개</a></li>
+                            <li><a href="sub/sub_ESG-2/esg_index.html">ESG</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Artist
+                        <ul class="sub">
+                            <li><a href="sub/sub_artist(aespa)/artist(aespa)_index.html">에스파</a></li>
+                            <li><a href="sub/sub_artist(nct)/artist(nct)_index.html">nct</a></li>
+                            <li><a href="sub/sub_schedule/schedule_index.html">스케줄</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="sub/sub_newsroom/newsroom_index.html">Newsroom</a></li>
+                    <li><a href="sub/sub_k-branding(process2)/process.index.html">Career</a></li>
+                    <li><a href="sub/sub_audition/audition_index.html">Audition</a></li>
+                    <li>
+                        Service
+                        <ul class="sub">
+                            <li><a href="https://www.smtown.com/" target="_blank">SM타운</a></li>
+                            <li><a href="https://kwangya119.smtown.com/" target="_blank">광야119</a></li>
+                            <li><a href="https://30th.smtown.com/" target="_blank">SM타운 30</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 인트로에서 등장할 큰 로고 -->
+        <div class="header-intro-logo">
+        <img src="img/SM엔터테인먼트_CI/02_PNG/SM엔터테인먼트_CI_wordmark_white.png" alt="SM Logo">
+        </div>
+
+        <section class="visual">
+            <ul class="slide">
+                <li>
+                    <video src="video/aespa.mp4" autoplay muted loop playsinline></video>
+                    <div class="idol-name left">
+                        <div>Red-velvet</div>
+                    </div>
+                    <div class="idol-name right">
+                        <div>NCT</div>
+                    </div>
+                    <p class="title">
+                        <span>aespa's fifth mini album - <span class="en">“ Whiplash ”</span></span> <br>
+                        <span>2024년 10월 21일 발매</span>
+                    </p>
+                </li>
+                <li>
+                    <video src="video/NCT.mp4" autoplay muted loop playsinline></video>
+                    <div class="idol-name left">
+                        <div>aespa</div>
+                    </div>
+                    <div class="idol-name right">
+                        <div>Red-velvet</div>
+                    </div>
+                    <p class="title">
+                        <span>NCT 127 's 2nd Regular album - <span class="en">“ Kick It ”</span></span> <br>
+                        <span>2020년 3월 6일 발매</span>
+                    </p>
+                </li>
+                <li>
+                    <video src="video/Red velvet.mp4" autoplay muted loop playsinline></video>
+                    <div class="idol-name left">
+                        <div>NCT</div>
+                    </div>
+                    <div class="idol-name right">
+                        <div>aespa</div>
+                    </div>
+                    <p class="title">
+                        <span>Red Velvet's The ReVe Festival: Finale - <span class="en">“ Psycho ”</span></span> <br>
+                        <span>2019년 12월 23일 발매</span>
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="section01">
+            <div class="inner">
+                <div class="top">
+                    <p class="subTxt">Here’s a fun fact: <br>
+                        Today. you are the product</p>
+                </div>
+                <div class="bottom animate" data-animate="motion">
+                    <p class="mainTxt">
+                        <span class="line">
+                            <span class="left">Your secret fave</span>
+                            <span class="logo"><img src="img/intro01.png" alt="" class="icon"></span>
+                            <span class="right en">we know.</span>
+                        </span><br>
+
+                        <span class="line">
+                            <span class="left en">Your</span> <span class="logo"><img src="img/intro02.png" alt="" class="icon"> <span class="left en">artist?</span>
+                            <span class="right">Remembered.</span>
+                        </span><br>
+                        <span class="line">
+                            <span class="left">next album</span>
+                            <span class="logo"><img src="img/intro03.png" alt="" class="icon"></span>
+                            <span class="right">You’re <span class="en">already waiting.</span></span>
+                        </span>
+                    </p>
+                </div>
+                <div class="line2 mo">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="comback mo">
+                    <a href="#"><p class="en">COMBACK</p></a>
+                </div>
+            </div>
+        </section>
+        <section class="section02">
+            <div class="inner">
+                <h2 class="title-one en">ComeBack</h2>
+                <p class="sub">2025.08.05 <br>comming soon!</p>
+                <div class="slide-wrap">
+                    <ul class="slide">
+                        <li class="content">
+                            <img src="img/img1.png" alt="">
+                            <div class="textBox">
+                                <p class="tit">aespa <span class="en">whiplash</span></p>
+                                <div class="Album">
+                                    <ul class="number">
+                                        <li>01</li>
+                                        <li>02</li>
+                                        <li>03</li>
+                                        <li>04</li>
+                                        <li>05</li>
+                                        <li>06</li>
+                                    </ul>
+                                    <ul class="list">
+                                        <li><b>title</b>Whiplash</li>
+                                        <li>Kill it </li>
+                                        <li>Flights, Not Feelings</li>
+                                        <li>Pink Hoodie</li>
+                                        <li>Flowers</li>
+                                        <li>Just Another Girl</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/img10.png" alt="">
+                            <div class="textBox">
+                                <p class="tit">Taeyeon <span class="en">Letter To Myself</span></p>
+                                <div class="Album">
+                                    <ul class="number">
+                                        <li>01</li>
+                                        <li>02</li>
+                                        <li>03</li>
+                                        <li>04</li>
+                                        <li>05</li>
+                                        <li>06</li>
+                                    </ul>
+                                    <ul class="list">
+                                        <li><b>title</b>Letter To Myself</li>
+                                        <li>Hot Mess</li>
+                                        <li>Blue Eyes</li>
+                                        <li>Strangers</li>
+                                        <li>Blur</li>
+                                        <li>Disaster</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/img11.png" alt="">
+                            <div class="textBox">
+                                <p class="tit">KAI <span class="en">음(Mmmh)</span></p>
+                                <div class="Album">
+                                    <ul class="number">
+                                        <li>01</li>
+                                        <li>02</li>
+                                        <li>03</li>
+                                        <li>04</li>
+                                        <li>05</li>
+                                        <li>06</li>
+                                    </ul>
+                                    <ul class="list">
+                                        <li><b>title</b>음(Mmmh)</li>
+                                        <li>Nothing On Me </li>
+                                        <li>기억상실(Amnesia)</li>
+                                        <li>Reason</li>
+                                        <li>Ride Or Die</li>
+                                        <li>Hello Stranger</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/img12.png" alt="">
+                            <div class="textBox">
+                                <p class="tit">NCT DREAM <span class="en">Candy</span></p>
+                                <div class="Album">
+                                    <ul class="number">
+                                        <li>01</li>
+                                        <li>02</li>
+                                        <li>03</li>
+                                        <li>04</li>
+                                        <li>05</li>
+                                        <li>06</li>
+                                    </ul>
+                                    <ul class="list">
+                                        <li><b>title</b>Candy</li>
+                                        <li>Graduation</li>
+                                        <li>Tangerine Love</li>
+                                        <li>입김(Take My Breath)</li>
+                                        <li>문(Moon)</li>
+                                        <li>발자국</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/img9.png" alt="">
+                            <div class="textBox">
+                                <p class="tit">Irene&Seulgi <span class="en">TILT</span></p>
+                                <div class="Album">
+                                    <ul class="number">
+                                        <li>01</li>
+                                        <li>02</li>
+                                        <li>03</li>
+                                        <li>04</li>
+                                        <li>05</li>
+                                        <li>06</li>
+                                    </ul>
+                                    <ul class="list">
+                                        <li><b>title</b>TILT</li>
+                                        <li>What's Your Problem?</li>
+                                        <li>Irresistible</li>
+                                        <li>Girl Next Door</li>
+                                        <li>Trampoline</li>
+                                        <li>Heaven</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="schedule">
+            <div class="inner">
+                <div class="title animate" data-animate="motion">
+                    THE <span class="en">Schedule</span>
+                    YOUR ANTICIPATION. 
+                </div>
+            </div>
+            <ul class="person">
+                <li class="parallax a animate" data-speed="1.0" data-animate="motion">
+                    <a href="sub/sub_schedule/schedule_index.html"><img src="img/schedule03.png" alt="에스파">
+                    <p><span class="title">아프리카 페스티벌 「Mawazine」참석</span><br>aespa Airport Departure 2025.6.23</p></a>
+                </li>
+                <li class="parallax b animate" data-speed="0.8" data-animate="motion">
+                    <a href="sub/sub_schedule/schedule_index.html"><img src="img/schedule02.png" alt="에스파2">
+                    <p><span class="title">4th, aespa 앨범 발매</span><br>힙합∙R&B∙팝 6곡 수록</p></a>
+                </li>
+                <li class="parallax c animate" data-speed="1.2" data-animate="motion">
+                    <a href="sub/sub_schedule/schedule_index.html"><img src="img/schedule01.png" alt="하트투하트"></a>
+                </li>
+                <li class="parallax d animate" data-speed="0.5" data-animate="motion">
+                    <a href="sub/sub_schedule/schedule_index.html"><img src="img/라이즈.jpg" alt="라이즈"></a>
+                </li>
+                <li class="parallax e animate" data-speed="1.5" data-animate="motion">
+                    <a href="sub/sub_schedule/schedule_index.html"><img src="img/schedule04.png" alt="nct">
+                    <p><span class="title">Mcountdown<br>사전녹화 7pm</span><br>Baggy Jeans NCT U</p></a>
+                </li>
+                <li class="parallax f animate" data-speed="1.2" data-animate="motion">
+                    <img src="img/intro01.png" alt="퍼즐로고">
+                </li>
+                <li class="parallax g animate" data-speed="1.3" data-animate="motion">
+                    <img src="img/intro02.png" alt="하트">
+                </li>
+                <li class="parallax h animate" data-speed="0.4" data-animate="motion">
+                    <img src="img/schedule06.png" alt="카메라">
+                </li>
+                <li class="parallax i animate" data-speed="0.5" data-animate="motion">
+                    <img src="img/schedule05.png" alt="종이비행기">
+                </li>
+            </ul>
+        </section>
+        <section class="section04">
+            <div class="inner">
+                <h2 class="title en">Concert Goods</h2>
+                <p class="subtit">아티스트별 굿즈를 확인하고 빠르게 구매하세요!</p>
+                <div class="container">
+                    <div id="cube">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                        <div class="face right"></div>
+                        <div class="face left"></div>
+                        <div class="face top"></div>
+                        <div class="face bottom"></div>
+                    </div>
+                    <div class="box-container">
+                        <div class="box1">
+                            <div class="boxright">
+                                <p class="title en">Red Velvet</p>
+                                <p class="txt"><span><b>[25.08.25]</b><br>SM CONCERT 2025 - THE FUTURE IS NOW <br></span><span>장소 : KSPO DOME</span></p>
+                                <div class="button">
+                                    <a href="https://weverse.io/redvelvet/notice/20247?hl=ko" target="_blank">
+                                        <span class="a">티켓 예매 바로가기 <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                    <a href="https://buly.kr/GE8DoFl target="_blank"">
+                                        <span class="b">STORE <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="boxleft">
+                                <p class="title en">aespa</p>
+                                <p class="txt"><span><b>[25.06.03]</b><br>LIVE TOUR - SYNK : PARALLEL LINE - ENCORE <br></span><span>장소 : KSPO DOME</span></p>
+                                <div class="button">
+                                    <a href="https://weverse.io/aespa/notice/24653?hl=ko" target="_blank">
+                                        <span class="a">티켓 예매 바로가기 <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                    <a href="https://buly.kr/CWuJDB0" target="_blank">
+                                        <span class="b">STORE <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="boxright">
+                                <p class="title en">Taeyeon</p>
+                                <p class="txt"><span><b>[25.10.13]</b><br>FAN MEETING & LIVE 2025 — TOGETHER AS ONE<br><span>장소 : KSPO DOME</span></span></p>
+                                <div class="button">
+                                    <a href="https://weverse.io/girlsgeneration/notice/24585?hl=ko" target="_blank">
+                                        <span class="a">티켓 예매 바로가기 <i class="ri-share-box-line" ></i></span>
+                                    </a>
+                                    <a href="https://buly.kr/6XmXrTs" target="_blank">
+                                        <span class="b">STORE <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="boxleft">
+                                <p class="title en">Red Velvet</p>
+                                <p class="txt"><span><b>[25.08.25]</b><br>SM CONCERT 2025 - THE FUTURE IS NOW <br></span><span>장소 : KSPO DOME</span></p>
+                                <div class="button">
+                                    <a href="https://weverse.io/redvelvet/notice/20247?hl=ko" target="_blank">
+                                        <span class="a">티켓 예매 바로가기 <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                    <a href="https://buly.kr/GE8DoFl" target="_blank">
+                                        <span class="b">STORE <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box3">
+                            <div class="boxright">
+                                <p class="title en">aespa</p>
+                                <p class="txt"><span><b>[25.04.05]</b><br>GLOBAL TOUR 2025 - INTO THE LIGHT <br></span><span>장소 : SINGAPORE INDOOR STADIUM</span></p>
+                                <div class="button">
+                                    <a href="https://weverse.io/aespa/notice/24653?hl=ko" target="_blank">
+                                        <span class="a">티켓 예매 바로가기 <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                    <a href="https://buly.kr/CWuJDB0" target="_blank">
+                                        <span class="b">STORE <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="boxleft">
+                                <p class="title en">Taeyeon</p>
+                                <p class="txt"><span><b>[25.10.13]</b><br>FAN MEETING & LIVE 2025 — TOGETHER AS ONEL<br></span><span>장소 : KSPO DOME</span></p>
+                                <div class="button">
+                                    <a href="https://weverse.io/girlsgeneration/notice/24585?hl=ko" target="_blank">
+                                        <span class="a">티켓 예매 바로가기 <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                    <a href="https://buly.kr/6XmXrTs" target="_blank">
+                                        <span class="b">STORE <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box4">
+                            <div class="boxright">
+                                <p class="title en">Nct Wish</p>
+                                <p class="txt"><span><b>[25.06.01]</b><br>LIVE STAGE 2025 — RESONANCE OF SOULS<br></span><span>장소 : BUSAN EXPO</span></p>
+                                <div class="button">
+                                    <a href="https://weverse.io/nctwish/notice/24613?hl=ko" target="_blank">
+                                        <span class="a">티켓 예매 바로가기 <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                    <a href="https://buly.kr/BpFHHs5" target="_blank"
+                                        <span class="b">STORE <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="boxleft">
+                                <p class="title en">aespa</p>
+                                <p class="txt"><span><b>[25.04.05]</b><br>GLOBAL TOUR 2025 - INTO THE LIGHT<br></span><span>장소 : SINGAPORE INDOOR STADIUM</span></p>
+                                <div class="button">
+                                    <a href="https://weverse.io/aespa/notice/24653?hl=ko" target="_blank">
+                                        <span class="a">티켓 예매 바로가기 <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                    <a href="https://buly.kr/CWuJDB0" target="_blank">
+                                        <span class="b">STORE <i class="ri-share-box-line"></i></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <section class="artist">
+            <ul class="artist-track">
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">1</span> -13
+                        </p>
+                        <p class="member en">
+                            Moon Heejoon, Jang Woohyuk, Tony Ahn, Kangta, Lee Jaewon
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">HOT</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">2</span>-13
+                        </p>
+                        <p class="member en">
+                            Bada, Eugene, Shoo
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">S.E.S</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">3</span>-13
+                        </p>
+                        <p class="member en">
+                            Kwon Boah
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">BoA</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Solo</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">4</span>-13
+                        </p>
+                        <p class="member en">
+                            U-Know Yunho, Max Changmin
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">TVXQ!</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">5</span>-13
+                        </p>
+                        <p class="member en">
+                            Leeteuk, Heechul, Yesung, Shindong, Eunhyuk, Siwon, Donghae...
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">Super Junior</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">6</span>-13
+                        </p>
+                        <p class="member en">
+                            Taeyeon, Sunny, Tiffany, Hyoyeon, Yuri, Sooyoung, Yoona, Seohyun
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">Girls’ Generation</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">7</span>-13
+                        </p>
+                        <p class="member en">
+                            Onew, Key, Minho, Taemin
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">SHINee</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">8</span>-13
+                        </p>
+                        <p class="member en">
+                            Victoria, Amber, Luna, Krystal
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">f(x)</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">9</span>-13
+                        </p>
+                        <p class="member en">
+                            Xiumin, Suho, Baekhyun, Chen, Chanyeol, D.O., Kai, Sehun
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">EXO</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">10</span>-13
+                        </p>
+                        <p class="member en">
+                            Irene, Seulgi, Wendy, Joy, Yeri
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">Red Velvet</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">11</span>-13
+                        </p>
+                        <p class="member en">
+                            Taeyong, Johnny, Yuta, Kun, Doyoung, Ten...
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">NCT</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">12</span>-13
+                        </p>
+                        <p class="member en">
+                            Karina, Winter, Giselle, NingNing
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name"><a href="sub/sub_artist(aespa)/artist(aespa)_index.html">aespa</a></p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p class="num">
+                            <span class="num-main">13</span>-13
+                        </p>
+                        <p class="member en">
+                            Carmen, Jiwoo, Yuha, Stella, Juun...
+                        </p>
+                    </div>
+                    <div class="center">
+                        <p class="name">Hearts2Hearts</p>
+                    </div>
+                    <div class="right">
+                        <p class="txt">Group</p>
+                    </div>
+                </li>
+            </ul>
+    </section>
+        <section class="section06">
+            <div class="inner animate" data-animate="motion">
+                <h2 class="title en">VOICE BY <span class="en">[ARTIST]</span></h2>
+                <p class="subtit">SM엔터테인먼트 공식 홈페이지에서 좋아하는 가수를 선택하고, 내 이름을 입력해보세요. <br>선택한 가수가 직접 내 이름을 불러주고, 팬들을 위한 노래 한 소절까지 선물해주는 SM만의 특별한 서비스. <br>
+                가수와 팬이 더 가까워지는 순간을 지금 바로 경험해보세요!</p>
+                <div class="service">
+                    <div class="left">
+                        <p class="img1">
+                            <img src="img/말풍선1.png" alt="">
+                            <img src="img/말풍선2.png" alt="">
+                            <img src="img/말풍선3.png" alt="">
+                        </p>
+                        <p class="img2">
+                            <img src="img/leftimg1.png" alt="">
+                            <img src="img/leftimg3.png" alt="">
+                            <img src="img/leftimg4.png" alt="">
+                            <img src="img/leftimg5.png" alt="">
+                            <img src="img/leftimg6.png" alt="">
+                            <img src="img/leftimg7.png" alt="">
+                            <img src="img/leftimg8.png" alt="">
+                            <img src="img/leftimg9.png" alt="">
+                            <img src="img/leftimg10.png" alt="">
+                            <span class="sound-wave">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </p>
+                        <p class="members">
+                            <span class="aespa" >KARINA | WINTER | NINGNING | GISELLE</span>
+                            <span class="nct">SION | RIKU | YUSHI | JAEHEE | RYO |  SAKUYA</span>
+                            <span class="hearts2hearts">CARMEN | JIWOO | YUHA | STELLA | <br> JUEUN | A-NA | IAN | YE-ON</span>
+                            <span class="exo" >XIUMIN | SUHO | LAY | BAEKHYUN</span>
+                            <span class="Red-velvet">IRENE | SEULGI | WENDY | JOY | YERI</span>
+                            <span class="superjunior">HEECHUL | LEETEUK | YESUNG | SHINDONG</span>
+                            <span class="boa" >BoA</span>
+                            <span class="TVXQ">U-KNOW YUNHO | MAX CHANGMIN</span>
+                            <span class="girls' Generation">TAEYEON | SUNNY | TIFFANY | HYOYEON | <br> YURI | SOOYOUNG | YOONA | SEOHYUN</span>
+                        </p>
+                        <p class="input">
+                            <img src="img/leftimg2.png" alt="">
+                            <span class="name"></span>
+                        </p>
+                    </div>
+                    <div class="right">
+                        <p class="img">
+                            <img src="img/rightimg1.png" alt="">
+                            <img src="img/rightimg2.png" alt="">
+                            <img src="img/rightimg3.png" alt="">
+                            <img src="img/rightimg4.png" alt="">
+                            <img src="img/rightimg5.png" alt="">
+                            <img src="img/rightimg6.png" alt="">
+                            <img src="img/rightimg7.png" alt="">
+                            <img src="img/rightimg8.png" alt="">
+                            <img src="img/rightimg9.png" alt="">
+                        </p>
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="a">
+                        <p>aespa</p>
+                        <p>NCT</p>
+                        <p>Hearts2Hearts</p>
+                        <p>EXO</p>
+                        <p>Red-Velvet</p>
+                    </div>
+                    <div class="b">
+                        <p>SUPERJUNIOR</p>
+                        <p>BoA</p>
+                        <p>TVXQ</p>
+                        <p>Girls' Generation</p>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <section class="section07">
+            <div class="inner animate" data-animate="motion">
+                <div class="logo">
+                    <a href="https://audition.smtown.com/sm_global_audition" target="_blank"><img src="img/smlogo.png" alt="" class="logo-img default"></a>
+                    <a href="https://audition.smtown.com/sm_global_audition" target="_blank"><img src="img/smlogo2.png" alt="" class="logo-img hover"></a>
+                </div>
+                <div class="textBox">
+                    <h3>한 걸음 내딛는 용기가 새로운 미래를 만듭니다. <br> 
+                        꿈을 포기하지 않고,무대 위에서 진짜 나를 만나보세요.</h3>
+                    <p>It takes just one brave step to meet a whole new future. <br>Keep chasing your dreams, <br>and discover your true self on the stage</p>
+                    <a href="https://audition.smtown.com/sm_global_audition" target="_blank"><span class="hightlight">Apply Now</span></a>
+                </div>
+            </div>
+          </section>
+          <section class="section08">
+            <div class="inner">
+                <h2 class="title en">News</h2>
+                <p class="subtit">SM의 공식 발표와 최신 뉴스를 지금 확인해보세요!</p>
+                <ul class="list">
+                    <li>
+                        <div class="border-wrap">
+                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <rect class="solid-border" x="1" y="1" width="98" height="98" rx="10%" ry="10%" />
+                                <rect class="gradient-border" x="1" y="1" width="98" height="98" rx="10%" ry="10%" />
+                            </svg>
+                          </div>
+                        
+                        <p class="tit">SM, 中 최고 파트너 텐센트 뮤직과 전략적 협력 강화! 주요 주주 참여 계기</p>
+                        <p class="txt">SM엔터테인먼트(이하 SM)와 중국 최대 음악 플랫폼 텐센트 뮤직 엔터테인먼트 그룹(이하 TME)이 글로벌 시장 공략을 위한 전략적 협업에 나선다. 양사는 5월 29일 업무협약(MOU)을 체결하고 전방위적 협력 체계를 구축하기로 합의했다.</p>
+                        <a href="https://buly.kr/EdtOycZ">
+                            <span class="button">More</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="border-wrap">
+                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <rect class="solid-border" x="1" y="1" width="98" height="98" rx="10%" ry="10%"  />
+                                <rect class="gradient-border" x="1" y="1" width="98" height="98" rx="10%" ry="10%"  />
+                            </svg>
+                          </div>
+                        <p class="tit">레드벨벳-아이린&슬기, 오늘(29일) 음악방송 출격! 신곡 ‘TILT’ 무대 드디어 공개</p>
+                        <p class="txt">레드벨벳-아이린&슬기(에스엠엔터테인먼트 소속)가 음악방송 활동으로 ‘퍼펙트 유닛’의 귀환을 알린다.</p>
+                        <a href="https://buly.kr/FAdfv45" target="_blank">
+                            <span class="button">More</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="border-wrap">
+                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <rect class="solid-border" x="1" y="1" width="98" height="98" rx="10%" ry="10%"  />
+                                <rect class="gradient-border" x="1" y="1" width="98" height="98" rx="10%" ry="10%"  />
+                            </svg>
+                          </div>
+                        <p class="tit">SM 장철혁·탁영준 공동대표, 美 빌보드 ‘2025 글로벌 파워 플레이어스‘ 선정</p>
+                        <p class="txt">미국 빌보드가 19일(현지시간) 공식 홈페이지를 통해 발표한 ‘빌보드 2025 글로벌 파워 플레이어스(Billboard’s 2025 Global Power Players)’에 장철혁, 탁영준 SM 공동대표가 이름을 올려 SM의 글로벌한 위상을 다시 한번 입증했다.</p>
+                        <a href="https://buly.kr/AF0SSDY" target="_blank">
+                            <span class="button">More</span>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="border-wrap">
+                            <svg class="border-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                                <rect class="solid-border" x="1" y="1" width="98" height="98" rx="10%" ry="10%"  />
+                                <rect class="gradient-border" x="1" y="1" width="98" height="98" rx="10%" ry="10%"  />
+                            </svg>
+                          </div>
+                        <p class="tit">이게 바로 샤이니다! 일곱 번째 단독 콘서트로 펼친 17년간의 찬란한 에세이</p>
+                        <p class="txt">5월 23~25일 3일간 서울 올림픽공원 KSPO DOME에서 열린 ‘SHINee WORLD Ⅶ [E.S.S.A.Y] (Every Stage Shines Around You)’(샤이니월드 Ⅶ [E.S.S.A.Y] (에브리 스테이지 샤인스 어라운드 유))는 총 3회 공연</p>
+                        <a href="https://buly.kr/6XmXr3I" target="_blank">
+                            <span class="button">More</span>
+                        </a>
+                    </li>
+                </ul>
+                <a href="sub/sub_newsroom/newsroom_index.html"><span class="more">더보기 ></span></a>
+            </div>
+        </section>
+        <svg width="0" height="0">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#FF669B" />
+                <stop offset="68%" stop-color="#CBE2E3" />
+                <stop offset="100%" stop-color="#CDD7F2" />
+              </linearGradient>
+            </defs>
+        </svg>  
+        <footer>
+            <div class="inner">
+                <div class="top">
+                    <img src="img/smlogo_white.png"alt >
+                    <ul class="contact">
+                        <li>
+                            <a href="https://www.smtown.com/policy/terms" target="_blank">
+                                <span>CONTACT US</span>
+                                LOCATION <br>IN CONTACT <br>비즈니스 문의 <br>비윤리행위 신고 <br>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>FAMILY SITE</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>LANGUAGE</span>한국어
+                            </a>
+                        </li>  
+                        <li>
+                            <a href="https://www.smtown.com/policy/privacy" target="_blank">
+                                <span>개인정보처리방침</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <ul class="list">
+                        <li><a href="sub/sub_company/company_index.html">회사</a></li><hr class="li-separator">
+                        <li><a href="sub/sub_artist(aespa)/artist(aespa)_index.html">아티스트</a></li><hr class="li-separator">
+                        <li><a href="sub/sub_newsroom/newsroom_index.html">뉴스룸</a></li><hr class="li-separator">
+                        <li><a href="sub/sub_k-branding(process2)/process.index.html">채용</a></li><hr class="li-separator">
+                        <li><a href="sub/sub_audition/audition_index.html">오디션</a></li><hr class="li-separator">
+                        <li><a href="https://www.smtown.com/" target="_blank">서비스</a></li>
+                    </ul>
+                    <ul>
+                        <li><span>@SM ENTERTAINMENT. ALL RIGHT RESERVED</span></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="index.html" class="goTop">
+                <p class="img"><i class="ri-arrow-up-double-line"></i></p>
+            </a>
+        </footer>
+    </div>
+    <script>
+          if ('scrollRestoration' in history) {
+    history.scrollRestoration = 'manual';
+  }
+    </script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scrolla.jquery.min.js"></script>
+    <script src="js/splitting.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
